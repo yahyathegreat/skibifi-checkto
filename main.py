@@ -48,3 +48,11 @@ elif BMI <= 39.9:
     print("you are obese.")
 else BMI <= 44.9:
     print("you are severly obese.")
+a = 5
+b = 10
+c = 20
+a = a + b + c
+b = a - (b + c)
+c = a - (b +c)
+a = a - (b + c)
+print(a,b,c)
